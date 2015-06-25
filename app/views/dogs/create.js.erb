@@ -1,2 +1,6 @@
+// Re-render the dogs list
 $('#dogs').html("<%= j ( render @dogs) %>");
-$('#dog-form').slideUp(350);
+
+// hide the form and modal
+$('#dog_form_modal').modal('hide');
+
